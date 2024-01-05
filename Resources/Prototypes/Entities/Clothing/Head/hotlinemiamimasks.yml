@@ -1,0 +1,12 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatTony
+  name: tony
+  description: 'Man, this party stinks. I fucking hate these people.'
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Misc/tony.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Misc/tony.rsi
+  - type: IngestionBlocker
+  - type: IdentityBlocker
